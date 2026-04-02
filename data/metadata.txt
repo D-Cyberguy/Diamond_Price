@@ -1,0 +1,12 @@
+ 1. Carat(Weight of Diamond) -> Weight of Diamond.
+ 2. Cut(Quality) -> Quality of cut(Fair, Good, Very Good, Premium, Ideal).
+ 3. Color -> Diamond Color(from J -> 'worst' to D -> 'Best').
+ 4. Clarity -> Measurement of Transparency(how clear the Diamond is) 
+                  Sequence of clarity ( I1 (worst quality), SI2, SI1, VS2, VS1, VVS2, VVS1, IF(best quality) ).
+ 5. Table -> Width of top of a Diamond.
+ 6. Price(in US dollars) -> Price of Diamond in US dollars.
+ 7. X(length) -> Length of Diamond in mm. 
+ 8. Y(width) -> Width of Diamond in mm. 
+ 9. Z(depth) -> Depth of Diamond in mm.
+10. Depth -> Total depth percentage. It can calculated by a simple formula.
+                  Total Depth % = z / mean(x , y) or z * 2 / (x + y). 
