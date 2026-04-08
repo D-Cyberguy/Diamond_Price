@@ -34,24 +34,3 @@ Thumbs.db
 # Distribution
 diamond_price_predictor.egg-info/
 ```
-
-Save it (`Ctrl + S`).
-
-**Why `artifacts/` is gitignored:**
-- `model.pkl` can be 100MB+ — GitHub has a 100MB file limit
-- In CI/CD, artifacts get **regenerated** by running the pipeline — they are never stored in git
-- Only your **code** goes to GitHub, not your trained models
-
----
-
-**Your full foundation is now complete:**
-```
-✅ setup.py
-✅ requirements.txt
-✅ src/__init__.py
-✅ src/components/__init__.py
-✅ src/pipeline/__init__.py
-✅ src/logger.py
-✅ src/exception.py
-✅ src/utils.py
-✅ .gitignore
